@@ -8,7 +8,9 @@ max_num = user_num % 10
 user_num = user_num // 10
 
 while user_num > 0:
-    if user_num % 10 > max_num:
+    if max_num == 9:# добавлено согласно комментарию преподавателя
+        break
+    elif user_num % 10 > max_num:
         max_num = user_num % 10
     user_num = user_num // 10
 
