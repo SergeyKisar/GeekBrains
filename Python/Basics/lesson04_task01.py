@@ -14,7 +14,6 @@ def wage_calc(total_hours= int or float, per_hour= int or float, bonus= int or f
     else:
         return result
 
-
 try:
     total_hours = argv[1]
     per_hour = argv[2]

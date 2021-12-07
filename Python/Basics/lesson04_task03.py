@@ -3,4 +3,5 @@
 # Подсказка: использовать функцию range() и генератор.
 
 number_list = [i for i in range(20, 241) if 0 == i % 20 or 0 == i % 21]
+
 print(number_list)
