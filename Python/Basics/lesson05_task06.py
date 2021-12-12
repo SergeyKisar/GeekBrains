@@ -8,3 +8,11 @@
 # Физкультура: — 30(пр) —
 # Пример словаря: {“Информатика”: 170, “Физика”: 40, “Физкультура”: 30}
 
+my_dict = {}
+with open('lesson05_task06.txt', 'r', encoding='utf-8') as f:
+    for line in f:
+        name, tasks = line.split(':')
+        num = [i for i in tasks if i == ' ' or (i >= '0' and i <= '9')]
+        tasks_sum = sum(map(int, ''.join(num).split()))
+        my_dict[name] = tasks_sum
+print(my_dict)

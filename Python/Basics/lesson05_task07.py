@@ -10,3 +10,12 @@
 # [{"firm_1": 5000, "firm_2": 3000, "firm_3": 1000}, {"average_profit": 2000}]
 # Подсказка: использовать менеджеры контекста.
 
+import json
+
+
+with open('lesson05_task07.json', 'w') as fr:
+    with open('lesson05_task07.txt', 'r', encoding='utf-8') as fs:
+        profit = {i.split()[0]: int(i.split()[2]) - int(i.split()[3]) for i in fs}
+        middle = [profit, {'Средний доход': round(sum([int(i) for i in profit.values() if int(i) > 0]) / len([int(i) for i in profit.values()if int(i) > 0]))}]
+    print(middle)
+    json.dump(middle, fr, ensure_ascii=False)
