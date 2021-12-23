@@ -1,0 +1,10 @@
+hostnamectl 
+   Static hostname: deus-ex-machina
+         Icon name: computer-desktop
+           Chassis: desktop
+        Machine ID: afcaffd451bb4fe088290f3a78349cb6
+           Boot ID: 1f1eb9db1de14b839d6f2ed28486083a
+  Operating System: Ubuntu 20.04.3 LTS
+            Kernel: Linux 5.11.0-43-generic
+      Architecture: x86-64
+
