@@ -32,5 +32,5 @@ CREATE TABLE games(
 	game_name VARCHAR(100) NOT NULL,
 	user_id BIGINT UNSIGNED NOT NULL,
 	
-	FOREIGN KEY (to_user_id) REFERENCES users(id) # ссылка на несуществующую таблицу
+	FOREIGN KEY (user_id) REFERENCES users(id) # ссылка на несуществующую таблицу
 );
