@@ -20,8 +20,8 @@ DROP TABLE IF EXISTS profiles;
 CREATE TABLE profiles(
 	user_id BIGINT UNSIGNED NOT NULL PRIMARY KEY,
 	gender CHAR(1),
-	birghday DATE,
-	is_adult CHAR(1) DEFAULT 0,
+	birthday DATE,
+	is_active CHAR(1) DEFAULT 0,
 	hometown VARCHAR(200),
 	created_at DATETIME DEFAULT NOW(),
 	
