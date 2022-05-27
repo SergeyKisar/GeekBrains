@@ -27,8 +27,8 @@ SELECT
 	CASE (gender)
 		WHEN 'm' THEN 'Мужчина'
 		WHEN 'f' THEN 'Женщина'
-		END AS 'Кто больше поставил лайков',
-	COUNT(*) as 'Количество'
+		END AS 'who_is_more',
+	COUNT(*)
 	FROM profiles
 WHERE user_id IN (SELECT user_id FROM likes)
 GROUP BY gender  
