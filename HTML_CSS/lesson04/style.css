@@ -1,0 +1,74 @@
+.menu {
+  list-style-type: none;
+  color: #f00ff0;
+  font-size: 20px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.menu li a:hover {
+  color: #fff;
+}
+
+.menu li a:active {
+  color: #888;
+}
+
+.link {
+  color: #f00ff0;
+  text-shadow: none;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+.text::first-letter {
+  font-size:24px;
+  color: #888;
+}
+
+table {
+  border: 1px solid #fff;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #fff;
+}
+
+td.td2 {
+  height: 100px;
+}
+
+.wrapper {
+  list-style-type: none;
+  padding: 0.5;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5em;
+}
+
+.name:focus,
+.email:focus
+{
+  color: #fff;
+  background-color: #000;
+}
+
+.comment {
+  text-transform: capitalize;
+}
+
+  body {
+    color: #fff;
+    text-shadow: #f00ff0 0px 0px 4px;
+    background: #f00ff0 url(https://cutewallpaper.org/21/wallpaper-ai/The-Machine-Learning-Canvas-From-Problem-to-AI-Solution.jpg);
+    background-size: 125%;
+  }

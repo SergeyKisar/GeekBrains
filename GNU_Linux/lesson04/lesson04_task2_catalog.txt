@@ -1,0 +1,28 @@
+итого 2097240
+drwxr-xr-x  20 root root       4096 ноя 20 16:24 ./
+drwxr-xr-x  20 root root       4096 ноя 20 16:24 ../
+lrwxrwxrwx   1 root root          7 ноя 20 15:58 bin -> usr/bin/
+drwxr-xr-x   4 root root       4096 янв 22 00:26 boot/
+drwxrwxr-x   2 root root       4096 ноя 20 16:24 cdrom/
+drwxr-xr-x  21 root root       4580 янв 24 17:22 dev/
+drwxr-xr-x 140 root root      12288 янв 24 23:11 etc/
+drwxr-xr-x   3 root root       4096 янв 21 13:41 home/
+lrwxrwxrwx   1 root root          7 ноя 20 15:58 lib -> usr/lib/
+lrwxrwxrwx   1 root root          9 ноя 20 15:58 lib32 -> usr/lib32/
+lrwxrwxrwx   1 root root          9 ноя 20 15:58 lib64 -> usr/lib64/
+lrwxrwxrwx   1 root root         10 ноя 20 15:58 libx32 -> usr/libx32/
+drwx------   2 root root      16384 ноя 20 15:57 lost+found/
+drwxr-xr-x   3 root root       4096 янв 22 13:26 media/
+drwxr-xr-x   2 root root       4096 авг 19 13:29 mnt/
+drwxr-xr-x   3 root root       4096 ноя 20 21:27 opt/
+dr-xr-xr-x 371 root root          0 янв 24 17:22 proc/
+drwx------   9 root root       4096 янв 21 12:55 root/
+drwxr-xr-x  37 root root       1040 янв 24 17:36 run/
+lrwxrwxrwx   1 root root          8 ноя 20 15:58 sbin -> usr/sbin/
+drwxr-xr-x  18 root root       4096 янв 22 00:29 snap/
+drwxr-xr-x   2 root root       4096 авг 19 13:29 srv/
+-rw-------   1 root root 2147483648 ноя 20 15:58 swapfile
+dr-xr-xr-x  13 root root          0 янв 24 17:22 sys/
+drwxrwxrwt  25 root root       4096 янв 24 23:43 tmp/
+drwxr-xr-x  14 root root       4096 авг 19 13:32 usr/
+drwxr-xr-x  14 root root       4096 авг 19 13:47 var/

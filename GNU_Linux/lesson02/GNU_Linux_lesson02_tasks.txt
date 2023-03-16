@@ -1,0 +1,10 @@
+git config --list 
+user.name=Sergey Kisar
+user.email=serg-kisar@yandex.ru
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.gb.url=git@github.com:SergeyKisar/GeekBrains.git
+remote.gb.fetch=+refs/heads/*:refs/remotes/gb/*
+
